@@ -1,4 +1,4 @@
-package Ejercicio_de_procesos;
+package Clase_2.Ejercicio_de_procesos;
 
 public class MainEjercicio1 {
     public static void main(String[] args) {
