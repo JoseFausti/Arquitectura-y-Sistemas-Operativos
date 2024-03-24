@@ -1,6 +1,6 @@
-package ThreadPorInterfazRunnable;
+package Clase_2.ThreadPorInterfazRunnable;
 
-import ThreadPorHerencia.PinPong;
+import Clase_2.ThreadPorHerencia.PinPong;
 
 import static java.lang.Thread.sleep;
 
