@@ -1,18 +1,15 @@
-package Clase_2.ThreadPorInterfazRunnable;
+package ThreadPorHerencia;
 
-import static java.lang.Thread.sleep;
-
-public class PingPong implements  Runnable{
-    private String word;//Lo que va a escribir
+public class PinPong extends Thread{
+    private String word;// Lo que va a escribir
     private int delay;//Tiempo entre escrituras
 
     //Constructor
-    public PingPong(String word, int delay) {
+    public PinPong(String word, int delay) {
         this.word = word;
         this.delay = delay;
     }
     //Getter y Setter
-
     public String getWord() {
         return word;
     }
@@ -27,15 +24,19 @@ public class PingPong implements  Runnable{
         this.delay = delay;
     }
 
+    //Metodos
     @Override
-    public void run() {
+    public void run(){ //Se sobreescribe run() de Thread
+        super.run();
         while (true){
             System.out.println(word + " ");
-            try{
-                Thread.sleep(delay);
-            } catch (InterruptedException e) {
+            try {
+                sleep(delay); // sleep(); es un metodo estatico de la clase Thread,
+                              // por lo que lo puedo llamar directamente por su nombre.
+            }catch (InterruptedException e){
                 return;
             }
         }
     }
+
 }

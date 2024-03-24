@@ -1,4 +1,4 @@
-package Clase_2.ThreadPorHerencia;
+package ThreadPorHerencia;
 
 import static java.lang.Thread.sleep;
 
