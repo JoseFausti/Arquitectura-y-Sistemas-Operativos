@@ -1,4 +1,4 @@
-package Sincronizacion4;
+package Clase_3.Sincronizacion4;
 
 public class CompartirInf4 {
     public static void main(String[] args) {

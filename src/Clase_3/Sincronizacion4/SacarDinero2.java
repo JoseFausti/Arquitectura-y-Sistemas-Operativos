@@ -1,4 +1,4 @@
-package Sincronizacion4;
+package Clase_3.Sincronizacion4;
 
 public class SacarDinero2 extends Thread {
     private Cuenta2 c;
