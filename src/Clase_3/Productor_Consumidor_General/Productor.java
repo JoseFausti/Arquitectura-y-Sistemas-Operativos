@@ -1,5 +1,4 @@
-package Productor_Consumidor_General;
-
+package Clase_3.Productor_Consumidor_General;
 public class Productor extends Thread {
     private Cola cola;
     private int n;

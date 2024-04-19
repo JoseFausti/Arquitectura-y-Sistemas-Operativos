@@ -1,4 +1,5 @@
-package Ejercico3_4;
+package Clase_3.Ejercico3_4;
+
 
 /* tarta resto una tarta cuando comen
 si no hay tarta se duermen los consumidores

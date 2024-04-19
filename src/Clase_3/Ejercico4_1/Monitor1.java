@@ -1,5 +1,4 @@
-package Ejercico4_1;
-
+package Clase_3.Ejercico4_1;
 public class Monitor1 {
 
     private int cont =0;

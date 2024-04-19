@@ -1,6 +1,5 @@
-package Ejercico3_4;
+package Clase_3.Ejercico3_4;
 
-import Ejercico3_3.ProcesoConBuffer;
 
 public class Main {
 

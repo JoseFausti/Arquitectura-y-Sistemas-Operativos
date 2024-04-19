@@ -1,4 +1,4 @@
-package Productor_Consumidor_General;
+package Clase_3.Productor_Consumidor_General;
 
 public class Cola {
     private int numero;
