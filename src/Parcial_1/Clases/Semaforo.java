@@ -1,5 +1,8 @@
-package Parcial_1;
+package Parcial_1.Clases;
 
+
+import Parcial_1.Clases.AlgoritmoConcurrencia;
+import Parcial_1.Clases.Proceso;
 
 import java.util.LinkedList;
 import java.util.List;

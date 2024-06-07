@@ -1,4 +1,4 @@
-package Parcial_1;
+package Parcial_1.Clases;
 
 
 // Clase Proceso

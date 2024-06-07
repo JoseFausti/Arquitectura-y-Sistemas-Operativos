@@ -1,14 +1,14 @@
-package Parcial_1;
+package Parcial_1.Clases;
 
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-public class AlgoritmoRiveros implements AlgoritmoConcurrencia {
+public class AlgoritmoOrihuela implements AlgoritmoConcurrencia {
     private Queue<Proceso> colaProcesos; // Cola de procesos
 
     // Constructor
-    public AlgoritmoRiveros() {
+    public AlgoritmoOrihuela() {
         this.colaProcesos = new LinkedList<>(); // Inicializa la cola de procesos
     }
 
@@ -24,7 +24,7 @@ public class AlgoritmoRiveros implements AlgoritmoConcurrencia {
     // Métodos de AlgoritmoConcurrencia
     @Override
     public void iniciarSimulacion(List<Proceso> procesos) {
-        System.out.println("Iniciando simulación con AlgoritmoRiveros..."); // Imprime mensaje de inicio de simulación
+        System.out.println("Iniciando simulación con AlgoritmoOrihuela..."); // Imprime mensaje de inicio de simulación
         for (Proceso proceso : procesos) {
             ejecutarProceso(proceso); // Ejecuta el proceso
         }
@@ -32,7 +32,7 @@ public class AlgoritmoRiveros implements AlgoritmoConcurrencia {
 
     @Override
     public void obtenerResultados() {
-        System.out.println("Obteniendo resultados de la simulación con AlgoritmoRiveros..."); // Imprime mensaje de obtención de resultados
+        System.out.println("Obteniendo resultados de la simulación con AlgoritmoOrihuela..."); // Imprime mensaje de obtención de resultados
         for (Proceso proceso : colaProcesos) {
             System.out.println("Proceso ID: " + proceso.getId() + " Estado: " + proceso.getEstado()); // Imprime el estado de cada proceso en la cola
         }
