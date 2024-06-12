@@ -59,7 +59,6 @@ public class Proceso {
         } catch (InterruptedException e) {
             e.printStackTrace(); // Imprime el stack trace en caso de interrupción
         }
-        this.finalizar(); // Finaliza el proceso
     }
 
     // Método para finalizar el proceso
