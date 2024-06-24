@@ -1,19 +1,20 @@
 package Parcial_1.Clases;
 
-
 // Clase Proceso
 public class Proceso {
     private String estado; // Estado del proceso
     private int id; // Identificador único del proceso
     private int tiempoEjecucion; // Tiempo de ejecución del proceso en segundos
     private Integer tiempoFinalizacion; // Tiempo de finalización del proceso en segundos (puede ser null)
+    private int prioridad; // Prioridad del proceso (opcional)
 
     // Constructor
-    public Proceso(String estado, int id, int tiempoEjecucion) {
+    public Proceso(String estado, int id, int tiempoEjecucion, int prioridad) {
         this.estado = estado; // Inicializa el estado del proceso
         this.id = id; // Asigna el ID del proceso
         this.tiempoEjecucion = tiempoEjecucion; // Establece el tiempo de ejecución del proceso
         this.tiempoFinalizacion = null; // Inicializa el tiempo de finalización como null
+        this.prioridad = prioridad; // Inicializa la prioridad del proceso
     }
 
     // Getters y Setters
@@ -47,6 +48,14 @@ public class Proceso {
 
     public void setTiempoFinalizacion(Integer tiempoFinalizacion) {
         this.tiempoFinalizacion = tiempoFinalizacion; // Establece el tiempo de finalización del proceso
+    }
+
+    public int getPrioridad() {
+        return prioridad; // Devuelve la prioridad del proceso
+    }
+
+    public void setPrioridad(int prioridad) {
+        this.prioridad = prioridad; // Establece la prioridad del proceso
     }
 
     // Método para ejecutar el proceso

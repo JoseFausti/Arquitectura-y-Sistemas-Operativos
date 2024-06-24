@@ -1,12 +1,8 @@
 package Parcial_1.Clases;
 
-
-import Parcial_1.Clases.AlgoritmoConcurrencia;
-import Parcial_1.Clases.Proceso;
-
-import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
+import java.util.LinkedList;
 
 // Clase Semaforo (Implementa AlgoritmoConcurrencia)
 public class Semaforo implements AlgoritmoConcurrencia {
